@@ -1,0 +1,1 @@
+Create a OOP model with classes and methods for database connections and Select clauses. (We did this yesterday in one whole file). Feel free to add other parts of CRUD if you want to. Add in a method to that model-Calculating the average unit price of all the products
