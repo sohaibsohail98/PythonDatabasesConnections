@@ -32,7 +32,7 @@ class Queries:
     def city_name(self):
         object = Connection()  # Calling a class from a previous file
         cursor = object.databaseconnection()
-        cursor.execute("SELECT * FROM Customers WHERE City = 'Paris'")
+        cursor.execute("SELECT DISTINCT c.city FROM Customers")
         cities = cursor.fetchone()
         for city in cities:
             print(city)
